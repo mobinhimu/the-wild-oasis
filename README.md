@@ -10,7 +10,7 @@ Explore The Wild Oasis in action through our interactive demos:
 
 Experience the magic of our hotel booking application in its full glory. This version showcases the application without code splitting, providing a seamless and immersive experience.
 
-### [The Wild Oasis - MOBIN (With Splitting ✌)](https://the-wild-oasis-mobinhimu.vercel.app/)
+### [The Wild Oasis - MOBIN (With Splitting ✌)](https://the-wild-oasis-jrhwa1y08-mobinhimu.vercel.app/)
 
 Discover the power of React's code splitting in action! In this version, we've harnessed the magic of code splitting to optimize the performance of The Wild Oasis. Witness faster loading times and a smoother user experience, thanks to this important React feature.
 
