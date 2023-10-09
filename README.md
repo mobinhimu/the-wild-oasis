@@ -6,11 +6,13 @@ Welcome to the Hotel Booking Application, a full-stack web application built usi
 
 Explore The Wild Oasis in action through our interactive demos:
 
-### [The Wild Oasis - MOBIN (Without Splitting 😉)](https://the-wild-oasis-mobin.netlify.app)
+### [The Wild Oasis - MOBIN (Without Splitting 😉)](https://the-wild-oasis-mobin.netlify.app/)
 
 Experience the magic of our hotel booking application in its full glory. This version showcases the application without code splitting, providing a seamless and immersive experience.
 
-### [The Wild Oasis - MOBIN (With Splitting ✌)](https://the-wild-oasis-mobin-splitted.netlify.app)
+<!-- ### [The Wild Oasis - MOBIN (With Splitting ✌)](https://the-wild-oasis-mobin-splitted.netlify.app) -->
+
+## working 😢
 
 Discover the power of React's code splitting in action! In this version, we've harnessed the magic of code splitting to optimize the performance of The Wild Oasis. Witness faster loading times and a smoother user experience, thanks to this important React feature.
 
