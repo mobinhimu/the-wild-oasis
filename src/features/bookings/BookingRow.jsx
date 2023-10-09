@@ -60,7 +60,7 @@ function BookingRow({
   },
 }) {
   const navigate = useNavigate();
-  const { checkOut, checkingOut } = useCheckOut();
+  const { checkOut } = useCheckOut();
   const { deleteBooking, isDeleting } = useDeleteBookings();
 
   const statusToTagName = {
@@ -68,8 +68,6 @@ function BookingRow({
     "checked-in": "green",
     "checked-out": "silver",
   };
-
-  if (checkingOut) return <Spinner />;
 
   return (
     <Table.Row>

@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import styled from "styled-components";
 import Header from "./Header";
 import SideBar from "./SideBar";
+import Uploader from "../data/Uploader";
 
 const StyledApp = styled.div`
   height: 100vh;
