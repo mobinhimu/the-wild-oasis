@@ -27,6 +27,25 @@ function UpdateUserDataForm() {
 
     if (!fullName) return;
 
+    const fullNameRegex = /^[A-Z][a-z]*\s[A-Z][a-z]*$/;
+    const maxCharacterLimit = 30;
+    // Test the input against the regex
+
+    if (!fullNameRegex.test(fullName)) {
+      alert("Please enter a valid full name (e.g., John Smith).");
+      return;
+    }
+
+    // Check if the full name exceeds the character limit
+    if (fullName.length > maxCharacterLimit) {
+      alert(
+        "Full name exceeds the character limit of " +
+          maxCharacterLimit +
+          " characters."
+      );
+      return;
+    }
+
     updateUser({ fullName, avatar });
   }
 
